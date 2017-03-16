@@ -14,4 +14,4 @@ sudo apt-get install -y nodejs
 cd /home/ubuntu
 rails new Test
 cd Test
-rails server
+bin/rails server -b 0.0.0.0
