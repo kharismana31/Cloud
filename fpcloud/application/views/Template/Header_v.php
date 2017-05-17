@@ -23,6 +23,12 @@
     <!-- Custom Fonts -->
     <link href="<?php echo asset_url();?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- DataTables CSS -->
+    <link href="<?php echo asset_url();?>datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="<?php echo asset_url();?>datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -81,13 +87,13 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="<?php echo base_url('dashboard'); ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Ambil Mata Kuliah</a>
+                            <a href="<?php echo base_url('ambilmk'); ?>"><i class="fa fa-dashboard fa-fw"></i> Ambil Mata Kuliah</a>
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Lihat Peserta</a>
+                            <a href="<?php echo base_url('lihatpeserta'); ?>"><i class="fa fa-dashboard fa-fw"></i> Lihat Peserta</a>
                         </li>
                     </ul>
                 </div>
