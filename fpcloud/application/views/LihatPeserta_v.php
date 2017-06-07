@@ -15,7 +15,7 @@
 					</div>
 					<div class="panel-body">
 						<div class="col-md-6 col-md-offset-3">
-							<?php echo form_open(base_url('lihatpeserta'), array('method'=>'get')); ?>
+							<?php echo form_open(base_url('kuliah'), array('method'=>'get')); ?>
 							<div class="form-group">
 								<label>List Mata Kuliah</label>
 								<select name="matakuliah" class="form-control">
