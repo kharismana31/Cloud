@@ -93,7 +93,7 @@
                             <a href="<?php echo base_url('ambilmk'); ?>"><i class="fa fa-dashboard fa-fw"></i> Ambil Mata Kuliah</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('lihatpeserta'); ?>"><i class="fa fa-dashboard fa-fw"></i> Lihat Peserta</a>
+                            <a href="<?php echo base_url('kuliah'); ?>"><i class="fa fa-dashboard fa-fw"></i> Lihat Peserta</a>
                         </li>
                     </ul>
                 </div>

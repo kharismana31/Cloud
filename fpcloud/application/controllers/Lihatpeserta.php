@@ -15,7 +15,7 @@ class Lihatpeserta extends CI_Controller{
 	function index(){
 
 		$nrp = $this->session->userdata("nama");
-		$matkul = $this->input->post('matakuliah', TRUE);
+		$matkul = $this->input->get('matakuliah', TRUE);
 		$data['matakuliah'] = $this->lihatpeserta_m->get_data();
 
 		//$data['list'] = $this->ambilmk_m->get_matakuliah_mahasiswa($nrp);

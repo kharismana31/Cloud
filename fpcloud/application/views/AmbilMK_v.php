@@ -15,12 +15,12 @@
 					</div>
 					<div class="panel-body">
 						<div class="col-md-6 col-md-offset-3">
-							<?php echo form_open(base_url('ambilmk/tambah')) ?>
+							<?php echo form_open(base_url('kuliah/ambil')) ?>
 							<div class="form-group">
 								<label>List Mata Kuliah</label>
 								<select name="matakuliah" class="form-control">
 									<option></option>
-									<?php foreach($list as $row): ?>
+									<?php foreach($matakuliah as $row): ?>
 										<option value=" <?php echo $row->id; ?> ">
 											<?php echo $row->namamk." | ".$row->hari ." | ".$row->namaruang  ?>
 										</option>
